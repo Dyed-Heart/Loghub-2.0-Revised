@@ -17,22 +17,6 @@ review_templates.py为主程序
 * Reviewed_templates_batch.xlsx
   * GPT批量输出的修正模板
 
----
-
-evaluate.py为评估程序，用来计算GPT输出模板获得的准确率、回归率和F1
-
-输入：
-
-* Reviewed_templates_batch.xlsx
-  * 上文GPT批量输出的修正模板
-
-* Manual_revised_filled.xlsx
-  * 人工审查后的标准结果
-
-输出：
-
-* Evaluation_output.xlsx
-  * 比对结果
 
 ---
 * .env ：存放API KEY
